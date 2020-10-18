@@ -54,6 +54,10 @@ zm_robot_rodsbridge.launch in zm_robot_control package and input your IP Address
 ``` bash
 <node name="rosbridge_websocket" pkg="rosbridge_server" type="rosbridge_websocket" output="screen">
     <param name="address" value="your ip"/>
-		<param name="port" value="9090"/>
+    <param name="port" value="9090"/>
 </node>
+```
+
+``` bash
+$ roslaunch zm_robot_control zm_robot_rodsbridge.launch
 ```
