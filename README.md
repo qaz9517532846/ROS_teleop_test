@@ -61,3 +61,7 @@ zm_robot_rodsbridge.launch in zm_robot_control package and input your IP Address
 ``` bash
 $ roslaunch zm_robot_control zm_robot_rodsbridge.launch
 ```
+
+Step 3. open Visual Studio 2019 and ROS_teleop_test.sln
+
+Step 4. Input IP Adress and Port connect to zm_robot.
