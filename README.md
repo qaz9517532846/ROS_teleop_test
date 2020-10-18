@@ -34,3 +34,5 @@ $ catkin_make
 # zm_robot_teleope HMI.
 
 ![image](https://github.com/qaz9517532846/ROS_teleop_test/blob/main/image/zm_robot_teleop.png)
+
+# Run the ROS_teleop_test.
