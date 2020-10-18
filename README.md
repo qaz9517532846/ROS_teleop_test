@@ -36,3 +36,24 @@ $ catkin_make
 ![image](https://github.com/qaz9517532846/ROS_teleop_test/blob/main/image/zm_robot_teleop.png)
 
 # Run the ROS_teleop_test.
+
+Step 1. open zm_robot.
+
+``` bash
+$ roslaunch zm_robot_gazebo zm_robot_world.launch
+```
+
+``` bash
+$ roslaunch zm_robot_control zm_robot_control_rviz.launch
+```
+
+Step 2. create zm_robot_rodsbridge launch file and open it.
+
+zm_robot_rodsbridge.launch in zm_robot_control package and input your IP Address and Port.
+
+``` bash
+<node name="rosbridge_websocket" pkg="rosbridge_server" type="rosbridge_websocket" output="screen">
+    <param name="address" value="your ip"/>
+		<param name="port" value="9090"/>
+</node>
+```
