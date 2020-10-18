@@ -24,7 +24,6 @@ $ git clone https://github.com/qaz9517532846/zm_robot.git
 $ cd ..
 ```
 
-
 ``` bash
 $ catkin_make
 ```
@@ -52,10 +51,12 @@ Step 2. create zm_robot_rodsbridge launch file and open it.
 zm_robot_rodsbridge.launch in zm_robot_control package and input your IP Address and Port.
 
 ``` bash
-<node name="rosbridge_websocket" pkg="rosbridge_server" type="rosbridge_websocket" output="screen">
-    <param name="address" value="your ip"/>
-    <param name="port" value="9090"/>
-</node>
+<launch>
+  <node name="rosbridge_websocket" pkg="rosbridge_server" type="rosbridge_websocket" output="screen">
+      <param name="address" value="your ip"/>
+      <param name="port" value="9090"/>
+  </node>
+</launch>
 ```
 
 ``` bash
