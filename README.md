@@ -65,3 +65,13 @@ $ roslaunch zm_robot_control zm_robot_rodsbridge.launch
 Step 3. open Visual Studio 2019 and ROS_teleop_test.sln
 
 Step 4. Input IP Adress and Port connect to zm_robot.
+
+------
+
+# Reference
+
+[1]. siemens/ros-sharp, https://github.com/siemens/ros-sharp
+
+[2]. zm_robot, https://github.com/qaz9517532846/zm_robot
+
+[3]. rosbridge_server, http://wiki.ros.org/rosbridge_server
