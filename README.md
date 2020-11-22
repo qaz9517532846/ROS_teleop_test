@@ -76,3 +76,7 @@ Step 4. Input IP Adress and Port connect to zm_robot.
 [2]. zm_robot, https://github.com/qaz9517532846/zm_robot
 
 [3]. rosbridge_server, http://wiki.ros.org/rosbridge_server
+
+------
+
+Copyright © 2020 ZM Robotics Software Laboratory.
