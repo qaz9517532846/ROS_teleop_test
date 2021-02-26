@@ -1,11 +1,11 @@
 # ROS_teleop_test
-The HMI remote control zm robot using C# program from Windows 10.
+- The HMI remote control zm robot using C# program from Windows 10.
 
-Need to install package and Software.
+- Need to install package and Software.
 
-Software: Visual Studio 2019 C# Windows Form and .Net Framework 4.8
+- Software: Visual Studio 2019 C# Windows Form and .Net Framework 4.8
 
-Package:
+- Package:
 
 ``` bash
 $ sudo apt-get install ros-melodic-rosbridge-server
@@ -28,15 +28,13 @@ $ cd ..
 $ catkin_make
 ```
 
-------
-
-# zm_robot_teleope HMI.
+## zm_robot_teleope HMI.
 
 ![image](https://github.com/qaz9517532846/ROS_teleop_test/blob/main/image/zm_robot_teleop.png)
 
-# Run the ROS_teleop_test.
+## Run the ROS_teleop_test.
 
-Step 1. open zm_robot.
+- Step 1. open zm_robot.
 
 ``` bash
 $ roslaunch zm_robot_gazebo zm_robot_world.launch
@@ -46,9 +44,9 @@ $ roslaunch zm_robot_gazebo zm_robot_world.launch
 $ roslaunch zm_robot_control zm_robot_control_rviz.launch
 ```
 
-Step 2. create zm_robot_rodsbridge launch file and open it.
+- Step 2. create zm_robot_rodsbridge launch file and open it.
 
-zm_robot_rodsbridge.launch in zm_robot_control package and input your IP Address and Port.
+   - zm_robot_rodsbridge.launch in zm_robot_control package and input your IP Address and Port.
 
 ``` bash
 <launch>
@@ -63,13 +61,13 @@ zm_robot_rodsbridge.launch in zm_robot_control package and input your IP Address
 $ roslaunch zm_robot_control zm_robot_rodsbridge.launch
 ```
 
-Step 3. open Visual Studio 2019 and ROS_teleop_test.sln
+- Step 3. open Visual Studio 2019 and ROS_teleop_test.sln
 
-Step 4. Input IP Adress and Port connect to zm_robot.
+- Step 4. Input IP Adress and Port connect to zm_robot.
 
 ------
 
-# Reference
+## Reference
 
 [1]. siemens/ros-sharp, https://github.com/siemens/ros-sharp
 
